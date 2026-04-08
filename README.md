@@ -6,8 +6,8 @@ Drug discovery often fails due to poor ADMET properties (Absorption, Distributio
 This agentic pipeline computes RDKit descriptors, then Gemini reasons biologically, and suggests optimizations.\
 
 ## Key Features
-- **RDKit Engine:** 140+ descriptors (MW, logP, TPSA, QED, rotatable bonds)
-- **Gemini Agent:** Generates failure explanations and optimization strategies
+- **RDKit Engine:** 10 core ADMET descriptors (MW, logP, TPSA, etc.)
+- **Gemini Agent:** Biological interpretation and optimization
 - **Agentic Loop:** Plan (Evaluate) → Act (Compute) → Reflect (Reason) → Improve (Optimize)  
 - **Validation:** 4-steps, lookling at baseline (Aspirin, Ibuprofen), tradeoff (Metformin, Lopinavir), non-drug-like/failure molecules (sucrose, stearic acid) and real-world drugs (Chloroquine, Imatinib)
 
