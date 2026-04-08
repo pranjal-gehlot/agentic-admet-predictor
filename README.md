@@ -19,7 +19,13 @@ Graph of Results
 
 Table of Results
 <img width="900" height="390" alt="agentic-admet-results-table" src="https://github.com/user-attachments/assets/029c6296-d502-4736-83ee-8a4bd809447f" />
+The agentic ADMET workflow excels across validation scenarios, correctly identifying Aspirin/Ibuprofen (100.0 scores) as ideal oral drugs while crushing Lopinavir and Sucrose for realistic liabilities—peptide-like flexibility and poor permeability, respectively. Metformin's nuanced 83.7 score despite logP=-0.56 demonstrates sophisticated polarity tradeoffs, and Imatinib's 77.6 (despite Lipinski failure) reflects kinase inhibitor realities. The Gemini agent's biological reasoning consistently aligns with medicinal chemistry intuition.
 See `output/` for full tables and agent reasoning.
+
+## Quick Start
+See 'notebook/' for the notebook and code
+
+
 
 
 
