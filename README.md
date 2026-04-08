@@ -3,7 +3,7 @@ Agentic ADMET Predictor: RDKit + LLM agent for drug-likeness triage & biological
 
 ## Overview
 Drug discovery often fails due to poor ADMET properties (Absorption, Distribution, Metabolism, Excretion, Toxicity). Traditional rule-based filters (e.g., Lipinski) are useful but lack contextual reasoning.
-This agentic pipeline computes RDKit descriptors, then Gemini reasons biologically, and suggests optimizations.\
+This agentic pipeline computes RDKit descriptors, then Gemini reasons biologically, and suggests optimizations.
 
 ## Key Features
 - **RDKit Engine:** 10 core ADMET descriptors (MW, logP, TPSA, etc.)
